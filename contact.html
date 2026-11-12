@@ -1,0 +1,56 @@
+<html>
+
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stardos+Stencil:wght@400;700&display=swap" rel="stylesheet">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   
+    <div id="body-container">
+    <div class="topnav">
+        <span><a href="index.html">home</a></span>
+        <span><a href="info.html">infomation</a></span>
+        <span><a href="contact.html">contact</a></span>
+        <span><a href="store.html">store</a></span>
+        <span><a href="terms and condition.html">T&C</a></span>
+    </div>
+
+
+    <main>
+        <h1>contact </h1>
+        <p>fill in the forms to get in touch </p>
+        <img>
+    </main>
+
+
+
+    <div class="centre">
+        <form>
+            <label for="name*">Name*</label>
+            <input id="name" name="name" type="text" required>
+
+            <label for="email">Email*</label>
+            <input id="email" name="email" type="email" required>
+
+            <label for="subject*">Subject*</label>
+            <select id="subject" name="subject" required>
+                <option value="">Choose a subject…</option>
+                <option value="booking">Booking</option>
+                <option value="press">Press</option>
+                <option value="fan">Fan message</option>
+            </select>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send message</button>
+        </form>
+    </div>
+</body>
+
+</html>

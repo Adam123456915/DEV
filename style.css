@@ -1,0 +1,109 @@
+.centre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: burlywood;
+
+}
+
+#body-container {
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+    max-width:940px;
+}
+
+
+
+h1 {
+    color: aquamarine;
+    font-style: italic;
+}
+
+.topnav {
+    background-color: rgb(239, 255, 8);
+    display:flex; 
+    gap: 20px;
+    align-items:center;
+    padding: 20px 40px;
+    justify-content:center;
+}
+
+.pagetitle {
+    font-family: "Stardos Stencil", system-ui;
+    font-weight: 400;
+    font-style: normal;    
+    text-align: center
+}
+main{
+    max-width: 28rem;
+    margin-inline: auto;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.boxed-list {
+    border: 2px solid rgb(237, 250, 1);
+    padding: 2em;
+    margin: 2em;
+ 
+
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+input, select, textarea {
+  display: block;
+  width: 100%;
+  max-width: 36rem;
+  font: inherit;
+  padding: 0.6rem;
+  border: 2px solid #55776e;
+  border-radius: 6px;
+}
+input:user-invalid,
+textarea:user-invalid {
+  border-color: #b3261e;
+  background: #fff1f0;
+}
+button {
+  margin-top: 1rem;
+  padding: 0.7rem 1rem;
+  font: inherit;
+  background-color: #00635b;
+  color: white;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* merch */
+
+.prod-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+
+}
+
+.prod-price::before {
+    content:'£';
+}
+
+.prod-card {
+  background: #dff400;
+  border: 2px solid #00665f;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+
