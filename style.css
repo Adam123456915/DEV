@@ -111,6 +111,6 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  background-color: #00665f;
-  color: white;
+  background-color: #ffea00;
+  color: rgb(0, 0, 0);
 }
